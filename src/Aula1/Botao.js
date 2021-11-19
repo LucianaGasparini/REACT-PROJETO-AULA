@@ -9,7 +9,6 @@ const Botao = (props) => {
       Width: "250px",
       heigtht: "80px",
     };
-
    
     return (
         <button

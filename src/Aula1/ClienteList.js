@@ -4,7 +4,7 @@ const ClienteList=()=> {
     return (
         <>
         <Cliente nome= "Luciana"/>
-        <Cliente nome= "Joãozionho"/>
+        <Cliente nome= "Joãozinho"/>
         <Cliente nome= "Tiãozinho"/>
 </>
     );

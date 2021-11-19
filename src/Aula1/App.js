@@ -5,11 +5,8 @@ const App =() =>{
 
    return(
     <div>  
-      Teste de componente
-      {' '+somaValores}
-      
-     
-       // <ClienteList/>
+          
+        <ClienteList/>
       </div>
     );
 }

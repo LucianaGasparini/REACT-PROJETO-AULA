@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 class BotaoClasse extends React.Component {
   showMessage = () => {
     alert("clicou");

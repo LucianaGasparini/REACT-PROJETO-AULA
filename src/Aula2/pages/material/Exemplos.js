@@ -51,16 +51,16 @@ const Exemplos = () => {
   //   };
 
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="lg">
       <Box
         sx={{
           display: "flex",
           justifyContent: "center",
           flex: 1,
-          backgroundColor: "blueviolet",
+          backgroundColor: "yellowgreen",
         }}
       >
-        <TableContainer sx={{ maxWidth: "650px" }} component={Paper}>
+        <TableContainer sx={{ maxWidth: "700px" }} component={Paper}>
           <Table aria-label="caption table">
             <TableHead>
               <TableRow>
@@ -91,11 +91,21 @@ const Exemplos = () => {
         </TableContainer>
       </Box>
 
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
+      <Button 
+      style={{ marginTop: '20px'}}
+      variant="text">Text
+      </Button>        
+      <Button 
+      style={{ backgroundColor:'olive',marginTop: '20px'}}
+      variant="contained">Contained
+      </Button>
+      <Button 
+      style={{ marginTop: '20px'}}
+      variant="outlined">Outlined
+      </Button>
     </Container>
   );
 };
 
 export default Exemplos;
+

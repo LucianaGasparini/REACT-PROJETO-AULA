@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const TextoNegrito = styled.span`
+const TextoNegrito = styled.p`
     font-size: 15px;
     font-weight: 600;
 `;
